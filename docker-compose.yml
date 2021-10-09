@@ -1,0 +1,26 @@
+version: "3"
+
+services:
+  caddy:
+    image: caddy:latest
+    container_name: caddy
+    restart: unless-stopped
+    ports:
+      - "443:443"
+      - "80:80"
+    volumes:
+      - $PWD:/etc/caddy
+      - /home/web/sites:/srv
+      - caddy_data:/data
+      - caddy_config:/config
+    networks:
+      - caddy
+
+networks:
+  caddy:
+
+volumes:
+  caddy_data:
+    external: true
+  caddy_config:
+    external: true

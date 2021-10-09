@@ -1,0 +1,8 @@
+(serve-image) {
+	root * /srv/hole.pictures
+	file_server {
+		index index.png
+	}
+	try_files {path}.png {path}
+	encode gzip
+}
