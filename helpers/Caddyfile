@@ -1,5 +1,5 @@
 (serve-image) {
-	root * /srv/{index .Args 0}
+	root * /srv/{{index .Args 0}}
 	file_server {
 		index index.png
 	}
