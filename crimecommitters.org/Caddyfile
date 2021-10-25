@@ -1,3 +1,3 @@
-www.crimecommitters.org, crimecommitters.org [
+www.crimecommitters.org, crimecommitters.org {
     redir https://twitter.com/holedaemon 301
-]
+}
