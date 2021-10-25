@@ -1,5 +1,3 @@
-import ../helpers/Caddyfile
-
 www.bazinga-sheldon-consumerof.world, bazinga-sheldon-consumerof.world {
 	import serve-image bazinga-sheldon-consumerof.world
 }

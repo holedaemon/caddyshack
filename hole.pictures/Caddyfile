@@ -1,5 +1,3 @@
-import ../helpers/Caddyfile
-
 www.hole.pictures, hole.pictures {
 	import serve-image hole.pictures
 }
