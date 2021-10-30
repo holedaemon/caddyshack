@@ -6,4 +6,10 @@ www.holedaemon.net, holedaemon.net {
     try_files {path}.html {path}
     templates
     encode gzip
+
+    handle_errors {
+        templates
+        rewrite * /error
+        file_server
+    }
 }
