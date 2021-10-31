@@ -1,11 +1,3 @@
 import helpers/Caddyfile
 
-import hole.pictures/Caddyfile
-
-import alexjonesbignaturals.com/Caddyfile
-
-import bazinga-sheldon-consumerof.world/Caddyfile
-
-import crimecommitters.org/Caddyfile
-
-import holedaemon.net/Caddyfile
+import sites/*
