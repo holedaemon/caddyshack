@@ -1,15 +1,15 @@
 www.holedaemon.net, holedaemon.net {
-    root * /srv/holedaemon.net
-    file_server {
-        index index.html
-    }
-    try_files {path}.html {path}
-    templates
-    encode gzip
+	root * /srv/holedaemon.net
+	file_server {
+		index index.html
+	}
+	try_files {path}.html {path}
+	templates
+	encode gzip
 
-    handle_errors {
-        rewrite * /error.html
-        templates
-        file_server
-    }
+	handle_errors {
+		rewrite * /error.html
+		templates
+		file_server
+	}
 }
