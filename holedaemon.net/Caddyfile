@@ -11,5 +11,6 @@ www.holedaemon.net, holedaemon.net {
         templates
         rewrite * /error
         file_server
+        try_files {path}.html {path}
     }
 }
