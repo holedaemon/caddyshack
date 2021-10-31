@@ -8,9 +8,8 @@ www.holedaemon.net, holedaemon.net {
     encode gzip
 
     handle_errors {
+        rewrite * /error.html
         templates
-        rewrite * /error
         file_server
-        try_files {path}.html {path}
     }
 }
