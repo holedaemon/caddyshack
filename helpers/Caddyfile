@@ -6,3 +6,19 @@
 	try_files {path}.png {path}
 	encode gzip
 }
+
+(static-site) {
+	root */srv/{args.0}
+	file_server {
+		index index.html
+	}
+	try_files {path}.html {path}
+	templates
+	encode gzip
+
+	handle_errors {
+		rewrite * /error.html
+		templates
+		file_server
+	}
+}
