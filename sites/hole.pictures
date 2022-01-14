@@ -2,6 +2,6 @@ www.hole.pictures, hole.pictures {
 	import serve-image hole.pictures
 }
 
-cool.hole.pictures, pop.hole.pictures, max.hole.pictures {
+cool.hole.pictures, pope.hole.pictures, max.hole.pictures {
 	redir https://hole.pictures
 }
