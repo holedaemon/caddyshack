@@ -1,7 +1,7 @@
 www.holedaemon.net, holedaemon.net {
 	import static-site holedaemon.net
 
-	handle /posts {
-		file_server /posts browse
+	handle /posts/* {
+		file_server browse
 	}
 }
