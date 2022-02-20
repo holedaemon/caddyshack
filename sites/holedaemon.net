@@ -4,4 +4,8 @@ www.holedaemon.net, holedaemon.net {
 	handle /posts/* {
 		file_server browse
 	}
+
+	handle /images/* {
+		file_server browse
+	}
 }
