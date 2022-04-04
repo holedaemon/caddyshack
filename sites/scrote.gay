@@ -1,3 +1,11 @@
 www.scrote.gay, scrote.gay {
     import static-site scrote.gay
 }
+
+scrote.gay/vhs {
+	redirect https://www.youtube.com/channel/UCKF6NdWte-aC0YIofE2rsgg
+}
+
+scrote.gay/twitter {
+	redirect https://twitter.com/SCROTEGANG
+}
