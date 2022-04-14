@@ -8,4 +8,8 @@ www.holedaemon.net, holedaemon.net {
 	handle /images/* {
 		file_server browse
 	}
+
+	handle /box/* {
+		file_server browse
+	}
 }
