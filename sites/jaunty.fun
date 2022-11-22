@@ -1,3 +1,3 @@
-www.jaunty.fun, play.jaunty.fun, jaunty.fun {
-	file_server browse
+www.jaunty.fun, jaunty.fun {
+	redir https://discord.gg/TBhmauKD6j
 }
