@@ -12,4 +12,8 @@ www.holedaemon.net, holedaemon.net {
 	handle /box/* {
 		file_server browse
 	}
+
+	handle /jb/* {
+		file_server browse
+	}
 }
