@@ -16,4 +16,8 @@ www.holedaemon.net, holedaemon.net {
 	handle /jb/* {
 		file_server browse
 	}
+
+	handle /jb_staging/* {
+		file_server browse
+	}
 }
