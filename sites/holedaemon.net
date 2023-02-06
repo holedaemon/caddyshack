@@ -21,3 +21,7 @@ www.holedaemon.net, holedaemon.net {
 		file_server browse
 	}
 }
+
+turnttable.holedaemon.net {
+	reverse_proxy turnt:9998
+}
