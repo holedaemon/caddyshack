@@ -1,6 +1,8 @@
 www.holedaemon.net, holedaemon.net {
 	import static-site holedaemon.net
 
+	rewrite /posts/* blog.html
+
 	handle /posts/* {
 		file_server browse
 	}
