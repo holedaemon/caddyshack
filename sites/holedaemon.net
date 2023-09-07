@@ -27,3 +27,7 @@ www.holedaemon.net, holedaemon.net {
 turnttable.holedaemon.net {
 	reverse_proxy turnt:9998
 }
+
+bot.holedaemon.net {
+	reverse_proxy bot2:9997
+}
