@@ -31,3 +31,7 @@ turnttable.holedaemon.net {
 bot.holedaemon.net {
 	reverse_proxy bot2web:9997
 }
+
+trilium.holedaemon.net {
+	reverse_proxy trilium:9996
+}
