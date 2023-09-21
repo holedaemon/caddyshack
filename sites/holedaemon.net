@@ -35,3 +35,7 @@ bot.holedaemon.net {
 trilium.holedaemon.net {
 	reverse_proxy trilium:9996
 }
+
+gopster.holedaemon.net {
+	reverse_proxy gopster:9995
+}
