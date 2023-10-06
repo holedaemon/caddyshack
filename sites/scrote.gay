@@ -1,0 +1,11 @@
+www.scrote.gay, scrote.gay {
+    import static-site scrote.gay
+
+    handle /static/* {
+        file_server browse
+    }
+
+    handle /posts/* {
+        file_server browse
+    }
+}
