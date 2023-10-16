@@ -39,3 +39,7 @@ trilium.holedaemon.net {
 gopster.holedaemon.net {
 	reverse_proxy gopster:9995
 }
+
+lavalink.holedaemon.net {
+	reverse_proxy lavalink:9994
+}
