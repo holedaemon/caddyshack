@@ -9,3 +9,7 @@ www.scrote.gay, scrote.gay {
         file_server browse
     }
 }
+
+radiohomo.scrote.gay {
+	reverse_proxy radiohomo:9993
+}
