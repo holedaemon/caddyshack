@@ -1,11 +1,11 @@
-www.holedaemon.net, holedaemon.net {
-	import static-site holedaemon.net
+ www.holedaemon.net, holedaemon.net {
+	# import static-site holedaemon.net
 
-	rewrite /posts/* blog.html
+	# rewrite /posts/* blog.html
 
-	handle /posts/* {
-		file_server browse
-	}
+	# handle /posts/* {
+	#	file_server browse
+	# }
 
 	handle /images/* {
 		file_server browse
@@ -24,9 +24,9 @@ www.holedaemon.net, holedaemon.net {
 	}
 }
 
-turnttable.holedaemon.net {
-	reverse_proxy turnt:9998
-}
+# turnttable.holedaemon.net {
+#	reverse_proxy turnt:9998
+# }
 
 bot.holedaemon.net {
 	reverse_proxy bot2web:9997
