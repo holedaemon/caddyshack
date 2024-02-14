@@ -24,9 +24,9 @@
 	}
 }
 
-# turnttable.holedaemon.net {
-#	reverse_proxy turnt:9998
-# }
+turnttable.holedaemon.net {
+	reverse_proxy turnt:9998
+}
 
 bot.holedaemon.net {
 	reverse_proxy bot2web:9997
