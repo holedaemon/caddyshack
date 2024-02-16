@@ -1,7 +1,7 @@
  www.holedaemon.net, holedaemon.net {
 	import static-site holedaemon.net
 
-	rewrite /posts/* blog.html
+	rewrite /posts/* post.html
 
 	handle /posts/* {
 		file_server browse
@@ -12,14 +12,6 @@
 	}
 
 	handle /box/* {
-		file_server browse
-	}
-
-	handle /jb/* {
-		file_server browse
-	}
-
-	handle /jb_staging/* {
 		file_server browse
 	}
 }
