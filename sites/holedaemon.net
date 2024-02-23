@@ -35,3 +35,7 @@ gopster.holedaemon.net {
 tod.holedaemon.net {
 	reverse_proxy tod:9993
 }
+
+lavalink.holedaemon.net {
+	reverse_proxy lavalink:9994
+}
